@@ -1,0 +1,6 @@
+Insert a number:
+8
+4
+2
+1
+steps = 4
