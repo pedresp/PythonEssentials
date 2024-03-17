@@ -11,3 +11,18 @@ Your task is to write a program which reads the number of blocks the builders ha
 Note: the height is measured by the number of fully completed layers – if the builders don't have a sufficient number of blocks and cannot complete the next layer, they finish their work immediately.
 
 **Solution:** pyramid.py
+
+## 3.2.15 Collatz's hypothesis
+
+**Problem:** In 1937, a German mathematician named Lothar Collatz formulated an intriguing hypothesis (it still remains unproven) which can be described in the following way:
+
+1. take any non-negative and non-zero integer number and name it c0;
+2. if it's even, evaluate a new c0 as c0 ÷ 2;
+3. otherwise, if it's odd, evaluate a new c0 as 3 × c0 + 1;
+4. if c0 ≠ 1, go back to point 2.
+
+The hypothesis says that regardless of the initial value of c0, it will always go to 1.
+
+Write a program which reads one natural number and executes the above steps as long as c0 remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of c0, too.
+
+**Solution:** collatz.py
