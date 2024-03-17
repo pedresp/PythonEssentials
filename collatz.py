@@ -1,4 +1,4 @@
-c0 = int(input())
+c0 = int(input("Insert a number:\n"))
 
 count = 0
 while c0 != 1:
@@ -9,4 +9,4 @@ while c0 != 1:
     print(c0)
     count += 1
 
-print("steps = ", count)
+print("steps =", count)
