@@ -25,7 +25,7 @@ Your task is to write a program which reads the number of blocks the builders ha
 
 Note: the height is measured by the number of fully completed layers – if the builders don't have a sufficient number of blocks and cannot complete the next layer, they finish their work immediately.
 
-**Solution:** pyramid.py
+**Solution:** Module3/pyramid.py
 
 <a id="item_two.one"></a>
 ## 3.2.15 Collatz's hypothesis
@@ -41,4 +41,4 @@ The hypothesis says that regardless of the initial value of **c0**, it will alwa
 
 Write a program which reads one natural number and executes the above steps as long as **c0** remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of **c0**, too.
 
-**Solution:** collatz.py
+**Solution:** Module3/collatz.py

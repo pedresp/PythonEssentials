@@ -25,7 +25,7 @@ case $1 in
 
         for ((; !$fails && ind<TEST_LENGHT; ind++))
         do
-            echo ${INPUT[ind]} | python pyramid.py | check "Enter the number of blocks: The height of the pyramid: ${OUTPUT[ind]}"
+            echo ${INPUT[ind]} | python Module3/pyramid.py | check "Enter the number of blocks: The height of the pyramid: ${OUTPUT[ind]}"
             fails=$?
         done;;
     
@@ -35,7 +35,7 @@ case $1 in
 
         for ((; !fails && ind<TEST_LENGHT; ind++))
         do
-            echo ${INPUT[ind]} | python collatz.py > file
+            echo ${INPUT[ind]} | python Module3/collatz.py > file
             diff file "testing/collatz/test$ind.txt"
             fails=$?
         done
