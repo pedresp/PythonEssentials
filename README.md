@@ -9,6 +9,7 @@
 - [Labs](#item_two)
     - [3.2.14 Essentials of the *while* loop](#item_two.zero)
     - [3.2.15 Collatz's hypothesis](#item_two.one)
+    - [3.6.6 Operating with Lists - Basics](#item_two.two)
 
 ## Introduction
 This repository is a collection of the Lab Exercises and my solutions to each problem.
@@ -60,4 +61,14 @@ The hypothesis says that regardless of the initial value of **c0**, it will alwa
 
 Write a program which reads one natural number and executes the above steps as long as **c0** remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of **c0**, too.
 
-**Solution:** src/collatz.pys
+**Solution:** src/collatz.py
+
+<a id="item_two.two"></a>
+## Operating with Lists - Basics
+
+**Problem**: Imagine a list ‒ not very long, not very complicated, just a simple list containing some integer numbers. 
+Some of these numbers may be repeated, and this is the clue. We don't want any repetitions. We want them to be removed.
+
+Your task is to write a program which removes all the number repetitions from the list. The goal is to have a list in which all the numbers appear not more than once.
+
+**Solution** src/no-repetition-list.py
