@@ -41,6 +41,18 @@ case $1 in
         done
 
         rm file;;
+    "no-repetition-list")
+        INDEXES=(0 1 2 3)
+        TEST_LENGHT=${#INDEXES[@]}
+
+        for ((; !fails && ind<TEST_LENGHT; ind++))
+        do
+            python src/no-repetition-list.py < "testing/no-repetition-list/test$ind.txt" > file
+            diff file "testing/no-repetition-list/sol$ind.txt"
+            fails=$?
+        done
+
+        rm file;;
     *)
         echo "incorrect test name" >&2
         exit 3;;
