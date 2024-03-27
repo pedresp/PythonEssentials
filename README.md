@@ -14,6 +14,25 @@
 This repository is a collection of the Lab Exercises and my solutions to each problem.
 I have also added a script in bash to check if the solution is correct.
 
+## Files and Folders
+
+<a id="item_one.zero"></a>
+### src
+
+This folder includes the source code of the Labs.
+
+<a id="item_one.one"></a>
+### testing
+
+This folder contains different cases for each lab to test if the solution provided in src/ is correct.
+
+<a id="item_one.two"></a>
+### test.sh
+
+This is a script design to test each solution. To us it you will need to execute the following command:
+
+        ./test.sh <name-of-the-lab>
+
 <a id="item_two.zero"></a>
 ## 3.2.14 Essentials of the *while* loop
 
@@ -25,7 +44,7 @@ Your task is to write a program which reads the number of blocks the builders ha
 
 Note: the height is measured by the number of fully completed layers – if the builders don't have a sufficient number of blocks and cannot complete the next layer, they finish their work immediately.
 
-**Solution:** pyramid.py
+**Solution:** src/pyramid.py
 
 <a id="item_two.one"></a>
 ## 3.2.15 Collatz's hypothesis
@@ -41,4 +60,4 @@ The hypothesis says that regardless of the initial value of **c0**, it will alwa
 
 Write a program which reads one natural number and executes the above steps as long as **c0** remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of **c0**, too.
 
-**Solution:** collatz.py
+**Solution:** src/collatz.pys
