@@ -11,6 +11,7 @@
     - [3.2.15 Collatz's hypothesis](#item_two.one)
     - [3.6.6 Operating with Lists - Basics](#item_two.two)
     - [4.3.4 A leap year](#item_two.three)
+    - [4.3.6 Day of the year](#item_two.four)
 
 ## Introduction
 This repository is a collection of the Lab Exercises and my solutions to each problem.
@@ -80,3 +81,11 @@ Your task is to write a program which removes all the number repetitions from th
 **Problem**: Write a function that returns True if a year is a *leap year* and False otherwise.
 
 **Solution**: src/leap_years.py
+
+<a id="item_two.four"></a>
+## Day of the year
+
+**Problem**: Write a function that given three arguments (year, month, day of the month), returns the corresponding day of the year and None if it the arguments
+are invalid.
+
+**Solution**: src/day_of_the_year.py
