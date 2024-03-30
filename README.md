@@ -10,6 +10,7 @@
     - [3.2.14 Essentials of the *while* loop](#item_two.zero)
     - [3.2.15 Collatz's hypothesis](#item_two.one)
     - [3.6.6 Operating with Lists - Basics](#item_two.two)
+    - [4.3.4 A leap year](#item_two.three)
 
 ## Introduction
 This repository is a collection of the Lab Exercises and my solutions to each problem.
@@ -72,3 +73,10 @@ Some of these numbers may be repeated, and this is the clue. We don't want any r
 Your task is to write a program which removes all the number repetitions from the list. The goal is to have a list in which all the numbers appear not more than once.
 
 **Solution** src/no-repetition-list.py
+
+<a id="item_two.three"></a>
+## Leap years
+
+**Problem**: Write a function that returns True if a year is a *leap year* and False otherwise.
+
+**Solution**: src/leap_years.py
