@@ -13,6 +13,7 @@
     - [4.3.4 A leap year](#item_two.three)
     - [4.3.6 Day of the year](#item_two.four)
     - [4.3.7 Prime numbers](#item_two.five)
+    - [4.3.8 Converting fuel consumption](#item_two.six)
 
 ## Introduction
 This repository is a collection of the Lab Exercises and my solutions to each problem.
@@ -97,3 +98,26 @@ are invalid.
 **Problems**: Write a function that returns True if a number is prime and False otherwise.
 
 **Solution**: src/prime_numbers.py
+
+<a id="item_two.six"></a>
+## 4.3.8 Converting fuel consumption
+
+**Problem**: A car's fuel consumption may be expressed in many different ways. For example, in Europe, it is shown as the amount of fuel consumed per 100 kilometers.
+
+In the USA, it is shown as the number of miles traveled by a car using one gallon of fuel.
+
+Your task is to write a pair of functions converting l/100km into mpg, and vice versa.
+
+The functions:
+
+    are named liters_100km_to_miles_gallon and miles_gallon_to_liters_100km respectively;
+    take one argument (the value corresponding to their names)
+
+Complete the code in the editor and run it to check whether your output is the same as ours.
+
+Here is some information to help you:
+
+    1 American mile = 1609.344 metres;
+    1 American gallon = 3.785411784 litres. 
+
+**Solution**: src/converting_fuel.py
