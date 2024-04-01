@@ -67,7 +67,7 @@ Write a program which reads one natural number and executes the above steps as l
 **Solution:** src/collatz.py
 
 <a id="item_two.two"></a>
-## Operating with Lists - Basics
+## 4.3.4 Operating with Lists - Basics
 
 **Problem**: Imagine a list ‒ not very long, not very complicated, just a simple list containing some integer numbers. 
 Some of these numbers may be repeated, and this is the clue. We don't want any repetitions. We want them to be removed.
@@ -77,14 +77,14 @@ Your task is to write a program which removes all the number repetitions from th
 **Solution** src/no-repetition-list.py
 
 <a id="item_two.three"></a>
-## Leap years
+## 4.3.6 Leap years
 
 **Problem**: Write a function that returns True if a year is a *leap year* and False otherwise.
 
 **Solution**: src/leap_years.py
 
 <a id="item_two.four"></a>
-## Day of the year
+## 4.3.7 Day of the year
 
 **Problem**: Write a function that given three arguments (year, month, day of the month), returns the corresponding day of the year and None if it the arguments
 are invalid.
