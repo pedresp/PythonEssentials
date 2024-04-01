@@ -12,6 +12,7 @@
     - [3.6.6 Operating with Lists - Basics](#item_two.two)
     - [4.3.4 A leap year](#item_two.three)
     - [4.3.6 Day of the year](#item_two.four)
+    - [4.3.7 Prime numbers](#item_two.five)
 
 ## Introduction
 This repository is a collection of the Lab Exercises and my solutions to each problem.
@@ -89,3 +90,10 @@ Your task is to write a program which removes all the number repetitions from th
 are invalid.
 
 **Solution**: src/day_of_the_year.py
+
+<a id="item_two.five"></a>
+## Prime numbers
+
+**Problems**: Write a function that returns True if a number is prime and False otherwise.
+
+**Solution**: src/prime_numbers.py
