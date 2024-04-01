@@ -68,7 +68,7 @@ Write a program which reads one natural number and executes the above steps as l
 **Solution:** src/collatz.py
 
 <a id="item_two.two"></a>
-## 4.3.4 Operating with Lists - Basics
+## 3.6.6 Operating with Lists - Basics
 
 **Problem**: Imagine a list ‒ not very long, not very complicated, just a simple list containing some integer numbers. 
 Some of these numbers may be repeated, and this is the clue. We don't want any repetitions. We want them to be removed.
@@ -78,14 +78,14 @@ Your task is to write a program which removes all the number repetitions from th
 **Solution** src/no-repetition-list.py
 
 <a id="item_two.three"></a>
-## 4.3.6 Leap years
+## 4.3.4 Leap years
 
 **Problem**: Write a function that returns True if a year is a *leap year* and False otherwise.
 
 **Solution**: src/leap_years.py
 
 <a id="item_two.four"></a>
-## 4.3.7 Day of the year
+## 4.3.6 Day of the year
 
 **Problem**: Write a function that given three arguments (year, month, day of the month), returns the corresponding day of the year and None if it the arguments
 are invalid.
@@ -93,7 +93,7 @@ are invalid.
 **Solution**: src/day_of_the_year.py
 
 <a id="item_two.five"></a>
-## Prime numbers
+## 4.3.7 Prime numbers
 
 **Problems**: Write a function that returns True if a number is prime and False otherwise.
 
@@ -107,13 +107,6 @@ are invalid.
 In the USA, it is shown as the number of miles traveled by a car using one gallon of fuel.
 
 Your task is to write a pair of functions converting l/100km into mpg, and vice versa.
-
-The functions:
-
-    are named liters_100km_to_miles_gallon and miles_gallon_to_liters_100km respectively;
-    take one argument (the value corresponding to their names)
-
-Complete the code in the editor and run it to check whether your output is the same as ours.
 
 Here is some information to help you:
 
