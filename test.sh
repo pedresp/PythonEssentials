@@ -58,6 +58,11 @@ case $1 in
         diff file "testing/prime_numbers/soluc.txt"
         fails=$?
         rm file;;
+    "converting_fuel")
+        python src/converting_fuel.py > file
+        diff file "testing/converting_fuel/soluc.txt"
+        fails=$?
+    rm file;;
     *)
         echo "incorrect test name" >&2
         exit 3;;
