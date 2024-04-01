@@ -53,6 +53,11 @@ case $1 in
         done
 
         rm file;;
+    "prime_numbers")
+        python src/prime_numbers.py > file
+        diff file "testing/prime_numbers/soluc.txt"
+        fails=$?
+        rm file;;
     *)
         echo "incorrect test name" >&2
         exit 3;;
